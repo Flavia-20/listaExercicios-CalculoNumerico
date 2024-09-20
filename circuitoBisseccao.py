@@ -50,11 +50,11 @@ def f(x):
      return 9 * math.exp(-x) * math.sin(2 * math.pi * x) - 3.5
 
 
-a = 0.1
-b = 1
+a = 0
+b = 0.2
 criterioParada = 0.00005
 maxInteracao = 50
-
+#outro intervalo: a = 0.3 b = 0.6
 
 (houveErro, raiz) = bisseccao(f, a, b, criterioParada, maxInteracao)
 

@@ -33,7 +33,7 @@ def flin(x):
     return -9 * math.exp(-x) * math.sin(2 * math.pi * x) + 9 * math.exp(-x) * math.cos(2 * math.pi * x) * 2 * math.pi
 
 
-chute = 0.1
+chute = 0 #Outro chute 0.3
 precisao = 0.0001
 maxIteracao = 50
 
