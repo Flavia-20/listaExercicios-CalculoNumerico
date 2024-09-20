@@ -54,7 +54,7 @@ def f(x):
 
 
 a = 0.1
-b = 100
+b = 0.5
 criterioParada = 0.00005
 maxInteracao = 50
 #0.15
