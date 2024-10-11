@@ -16,7 +16,7 @@ def bisseccao(f, a, b, criterioParada, maxInteracao):
 
     print("-\t%e\t%e\t%e\t%e\t%e\t%e" % (a, Fa, b, Fb, m, Fm))
 
-    if abs(Fm) < criterioParada:
+    if abs(Fm) <= criterioParada:
         return(False, m)
     
     k = 1
@@ -51,8 +51,8 @@ def f(theta0, v0=30, x=90, y0=1.8, y=1, g=9.81):
 
 
 
-a = 1.8
-b = 500
+a = 0.5
+b = 0.85
 criterioParada = 0.0005
 maxInteracao = 20
 

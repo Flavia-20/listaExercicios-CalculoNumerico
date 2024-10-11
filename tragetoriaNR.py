@@ -33,7 +33,7 @@ def flin(theta0, v0=30, x=90, g=9.81):
     return x / (math.cos(theta_rad)**2) + (g * x**2 * math.sin(theta_rad)) / (v0**2 * math.cos(theta_rad)**3)
 
 
-chute = 1.8
+chute = 5
 precisao = 0.0005
 maxIteracao = 7000
 

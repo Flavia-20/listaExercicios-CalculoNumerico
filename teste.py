@@ -1,4 +1,4 @@
-
+import math
 
 def calcular_valor(i):
     resultado = 35000 * (i * (1 + i) ** 7) / ((1 + i) ** 7 - 1) - 8500
@@ -32,4 +32,23 @@ n = 1 / (q * mu * rho)
 
 print(f"O valor de n é: {n:.5e}")
 
+def f(N):
+  """
+  Função que representa a equação do problema.
+  """
+  T0 = 300
+  T = 1000
+  u0 = 1360
+  q = 1.7 * 10 ** -19
+  ni = 6.21 * 10 ** 9
+  p = 6.5 * 10 ** 6
+
+  u = u0 * (T0 / T) ** 2.42
+  n = (N + math.sqrt(N ** 2 + 4 * ni ** 2)) / 2
+  rho = 1 / (q * n * u)
+
+  return rho - p
+
+print(f"f(0) = {f(0)}")
+print(f"f(10^12) = {f(10**12)}")
 

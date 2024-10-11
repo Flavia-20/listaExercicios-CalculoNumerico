@@ -30,7 +30,7 @@ def f(x):
 def flin(x):
     return math.pi * x * (3 * 3 - x) - math.pi * x**2 / 3
 
-chute = 1.5
+chute = 1
 precisao = 0.00005
 maxIteracao = 50
 

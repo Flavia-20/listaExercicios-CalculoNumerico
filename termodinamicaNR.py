@@ -31,7 +31,7 @@ def f(T):
 def flin(T):
   return 1.671 * 10**-4 + 2 * 9.7215 * 10**-8 * T - 3 * 9.5838 * 10**-11 * T**2 + 4 * 1.9520 * 10**-14 * T**3
 
-chute = 0.5
+chute = 1
 precisao = 0.00005
 maxIteracao = 50
 

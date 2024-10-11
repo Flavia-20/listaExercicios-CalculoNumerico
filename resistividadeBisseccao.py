@@ -63,8 +63,8 @@ def f(N):
   return rho - p
 
 
-a = 0
-b =  10 ** 12
+a = 10 ** 9
+b =  10 ** 12 
 criterioParada = 0.00005
 maxInteracao = 70
 

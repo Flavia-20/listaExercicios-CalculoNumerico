@@ -26,9 +26,7 @@ def newtonRapson(f, flin, chute, precisao,maxIteracao):
 
 
 def f(N):
-  """
-  Função que representa a equação do problema.
-  """
+
   T0 = 300
   T = 1000
   u0 = 1360
@@ -44,9 +42,7 @@ def f(N):
 
 
 def flin(N):
-  """
-  Função que representa a derivada da equação do problema (usando a regra da cadeia).
-  """
+
   T0 = 300
   T = 1000
   u0 = 1360
@@ -68,7 +64,7 @@ def flin(N):
   return drho_dN
 
 chute = 0.5
-precisao =0.00005
+precisao = 0.00005
 maxIteracao = 50
 
 

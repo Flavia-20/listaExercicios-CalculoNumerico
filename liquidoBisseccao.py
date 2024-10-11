@@ -51,7 +51,7 @@ def f(h, r=2, L=5, V=8):
 
 
 a = 0
-b = 1
+b = 0.8
 criterioParada = 0.00005
 maxInteracao = 40
 

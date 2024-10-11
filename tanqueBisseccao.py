@@ -55,6 +55,8 @@ b = 3
 criterioParada = 0.00005
 maxInteracao = 20
 
+#outro intervalo: a = 7 #a altura não pode ser 0 b = 10
+
 
 (houveErro, raiz) = bisseccao(f, a, b, criterioParada, maxInteracao)
 
@@ -63,3 +65,6 @@ if houveErro:
     print("O Método da Bisseção retornou um erro.")
 if raiz is not None:
     print("Raiz encontrada: %s" % raiz)
+
+
+#o altura do liquido qundo colocar 30 m cub. é o da primeira raiz pois o raio é 3 o diametro 6 então a segunda raiz não estaria certo
